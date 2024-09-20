@@ -1,0 +1,38 @@
+html {
+  height: 100%;
+  width: 100%;
+   background-color: #000000;
+  .txg{
+    color: white;
+    text-align: center;
+    size: 50px;
+  }
+  .txgl {
+    color: white;
+    text-align: center;
+    size: 30px;
+  }
+  .tx {
+    color: white;
+    size: 15px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    color: wheat;
+  }
+  .container2 {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    color: wheat;
+  }
+  .container3 {
+    display: flex;
+    flex-direction:nowrap;
+    height: 200px;
+  }
+  .container4 {
+    grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+  grid-auto-flow: column;
+  }
